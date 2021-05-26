@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/juli/my-search-engine/Crawler/PageLoader/Page.cpp
+Page.hpp
+/home/juli/my-search-engine/Crawler/PageLoader/Page.hpp
+
+/home/juli/my-search-engine/Crawler/PageLoader/Page.hpp
+string
+-
+
+/home/juli/my-search-engine/Crawler/PageLoader/PageLoader.cpp
+PageLoader.hpp
+/home/juli/my-search-engine/Crawler/PageLoader/PageLoader.hpp
+
+/home/juli/my-search-engine/Crawler/PageLoader/PageLoader.hpp
+curl/curl.h
+-
+Page.hpp
+/home/juli/my-search-engine/Crawler/PageLoader/Page.hpp
+
+/home/juli/my-search-engine/Crawler/PageLoader/test.cpp
+iostream
+-
+PageLoader.hpp
+/home/juli/my-search-engine/Crawler/PageLoader/PageLoader.hpp
+
