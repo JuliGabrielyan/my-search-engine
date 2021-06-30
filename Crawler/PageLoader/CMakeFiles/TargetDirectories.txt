@@ -1,3 +1,2 @@
 /home/juli/my-search-engine/Crawler/PageLoader/CMakeFiles/rebuild_cache.dir
 /home/juli/my-search-engine/Crawler/PageLoader/CMakeFiles/edit_cache.dir
-/home/juli/my-search-engine/Crawler/PageLoader/CMakeFiles/PageLoader.dir

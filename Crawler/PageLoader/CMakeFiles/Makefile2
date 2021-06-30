@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = /home/juli/my-search-engine/Crawler/PageLoader
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/PageLoader.dir/all
+all:
 
 .PHONY : all
 
@@ -63,36 +63,9 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/PageLoader.dir/clean
+clean:
 
 .PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/PageLoader.dir
-
-# All Build rule for target.
-CMakeFiles/PageLoader.dir/all:
-	$(MAKE) -f CMakeFiles/PageLoader.dir/build.make CMakeFiles/PageLoader.dir/depend
-	$(MAKE) -f CMakeFiles/PageLoader.dir/build.make CMakeFiles/PageLoader.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/juli/my-search-engine/Crawler/PageLoader/CMakeFiles --progress-num=1,2,3,4 "Built target PageLoader"
-.PHONY : CMakeFiles/PageLoader.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/PageLoader.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/juli/my-search-engine/Crawler/PageLoader/CMakeFiles 4
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/PageLoader.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/juli/my-search-engine/Crawler/PageLoader/CMakeFiles 0
-.PHONY : CMakeFiles/PageLoader.dir/rule
-
-# Convenience name for target.
-PageLoader: CMakeFiles/PageLoader.dir/rule
-
-.PHONY : PageLoader
-
-# clean rule for target.
-CMakeFiles/PageLoader.dir/clean:
-	$(MAKE) -f CMakeFiles/PageLoader.dir/build.make CMakeFiles/PageLoader.dir/clean
-.PHONY : CMakeFiles/PageLoader.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

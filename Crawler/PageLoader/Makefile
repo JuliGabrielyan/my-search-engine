@@ -110,100 +110,6 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named PageLoader
-
-# Build rule for target.
-PageLoader: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 PageLoader
-.PHONY : PageLoader
-
-# fast build rule for target.
-PageLoader/fast:
-	$(MAKE) -f CMakeFiles/PageLoader.dir/build.make CMakeFiles/PageLoader.dir/build
-.PHONY : PageLoader/fast
-
-Page.o: Page.cpp.o
-
-.PHONY : Page.o
-
-# target to build an object file
-Page.cpp.o:
-	$(MAKE) -f CMakeFiles/PageLoader.dir/build.make CMakeFiles/PageLoader.dir/Page.cpp.o
-.PHONY : Page.cpp.o
-
-Page.i: Page.cpp.i
-
-.PHONY : Page.i
-
-# target to preprocess a source file
-Page.cpp.i:
-	$(MAKE) -f CMakeFiles/PageLoader.dir/build.make CMakeFiles/PageLoader.dir/Page.cpp.i
-.PHONY : Page.cpp.i
-
-Page.s: Page.cpp.s
-
-.PHONY : Page.s
-
-# target to generate assembly for a file
-Page.cpp.s:
-	$(MAKE) -f CMakeFiles/PageLoader.dir/build.make CMakeFiles/PageLoader.dir/Page.cpp.s
-.PHONY : Page.cpp.s
-
-PageLoader.o: PageLoader.cpp.o
-
-.PHONY : PageLoader.o
-
-# target to build an object file
-PageLoader.cpp.o:
-	$(MAKE) -f CMakeFiles/PageLoader.dir/build.make CMakeFiles/PageLoader.dir/PageLoader.cpp.o
-.PHONY : PageLoader.cpp.o
-
-PageLoader.i: PageLoader.cpp.i
-
-.PHONY : PageLoader.i
-
-# target to preprocess a source file
-PageLoader.cpp.i:
-	$(MAKE) -f CMakeFiles/PageLoader.dir/build.make CMakeFiles/PageLoader.dir/PageLoader.cpp.i
-.PHONY : PageLoader.cpp.i
-
-PageLoader.s: PageLoader.cpp.s
-
-.PHONY : PageLoader.s
-
-# target to generate assembly for a file
-PageLoader.cpp.s:
-	$(MAKE) -f CMakeFiles/PageLoader.dir/build.make CMakeFiles/PageLoader.dir/PageLoader.cpp.s
-.PHONY : PageLoader.cpp.s
-
-test.o: test.cpp.o
-
-.PHONY : test.o
-
-# target to build an object file
-test.cpp.o:
-	$(MAKE) -f CMakeFiles/PageLoader.dir/build.make CMakeFiles/PageLoader.dir/test.cpp.o
-.PHONY : test.cpp.o
-
-test.i: test.cpp.i
-
-.PHONY : test.i
-
-# target to preprocess a source file
-test.cpp.i:
-	$(MAKE) -f CMakeFiles/PageLoader.dir/build.make CMakeFiles/PageLoader.dir/test.cpp.i
-.PHONY : test.cpp.i
-
-test.s: test.cpp.s
-
-.PHONY : test.s
-
-# target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) -f CMakeFiles/PageLoader.dir/build.make CMakeFiles/PageLoader.dir/test.cpp.s
-.PHONY : test.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,16 +118,6 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... PageLoader"
-	@echo "... Page.o"
-	@echo "... Page.i"
-	@echo "... Page.s"
-	@echo "... PageLoader.o"
-	@echo "... PageLoader.i"
-	@echo "... PageLoader.s"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
 .PHONY : help
 
 
